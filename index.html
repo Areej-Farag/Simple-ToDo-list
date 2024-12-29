@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/reset.css"/>
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Prata&family=Racing+Sans+One&display=swap" rel="stylesheet">
+        
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <header>
+            <div class="head">
+              <div class="line"></div>
+              <h1>To-Do List</h1>
+              <div class="line"></div>
+            </div>
+            <div class="lineLong">
+              <div class="line"></div>
+              <i class="fa-solid fa-pen-to-square"></i>
+            </div>
+        </header>
+
+        <section>
+           <div class="inputSec">
+          <input id="input" type="text">
+          <button class="add" onclick="addTask()">Add Task</button>
+        </div>
+
+        <ul class="list" id="list">
+          <!-- Tasks will be added here -->
+           <!-- <li class="task">task 1 <div class="icons"> <i class="fa-solid fa-check done" onclick="done()"></i> <i class="fa-solid fa-pen" onclick="edit()"></i> <i class="fa-regular fa-trash-can delete" onclick="remove()"></i></div></li> -->
+        </ul>
+        <button id="clear" class="clear">Clear</button>
+        </section>
+       
+
+
+   
+        <!-- <Script src="js/bootstrap.min.js"></Script> -->
+        <Script src="js/script.js"></Script>
+    </body>
+</html>
